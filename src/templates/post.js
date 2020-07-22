@@ -12,7 +12,7 @@ export const query = graphql`
   query($url: String) {
     sitePage(path: {eq: $url}) {
       id
-    }
+    } 
   }
 `
 const Post = (props) => {
@@ -28,16 +28,13 @@ const Post = (props) => {
       <article className='post post-full'>
         <header className='post-header inner-md'>
           <div className='post-meta'>
-            <time className='published' dateTime={moment(_.get(props, 'pageContext.frontmatter.date', null)).strftime('%Y-%m-%d %H:%M')}>
-              {moment(_.get(props, 'pageContext.frontmatter.date', null)).strftime('%A, %B %e, %Y')}
-            </time>
           </div>
           <h1 className='post-title'>{_.get(props, 'pageContext.frontmatter.title', null)}</h1>
           {_.get(props, 'pageContext.frontmatter.subtitle', null) && (
            <div className='post-subtitle'>
              {htmlToReact(_.get(props, 'pageContext.frontmatter.subtitle', null))}
            </div>
-           )}
+           )} 
         </header>
         {_.get(props, 'pageContext.frontmatter.content_img_path', null) && (
          <div className='post-thumbnail'>
@@ -50,8 +47,8 @@ const Post = (props) => {
             <button onClick={addLove}>
               luv
             </button>
-            <div>
-              {loves} people loved
+            <div class="how-many-people-liked-this">
+              {loves} people liked this
             </div>
           </div>
         </div>

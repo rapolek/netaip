@@ -44,25 +44,22 @@ export default class Home extends React.Component {
                 <article key={post_idx} className="post post-card">
                   <div className="post-card-inside">
                     {_.get(post, 'frontmatter.thumb_img_path', null) && (
-                    <Link className="post-card-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
                       <img className="thumbnail" src={withPrefix(_.get(post, 'frontmatter.thumb_img_path', null))} alt={_.get(post, 'frontmatter.title', null)} />
-                    </Link>
                     )}
                     <div className="post-card-content">
                       <header className="post-header">
                         <div className="post-meta">
-                          <time className="published"
-                          dateTime={moment(_.get(post, 'frontmatter.date', null)).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date', null)).strftime('%B %d, %Y')}</time>
                         </div>
                         <h2 className="post-title"><Link to={withPrefix(_.get(post, 'url', null))} rel="bookmark">{_.get(post, 'frontmatter.title', null)}</Link></h2>
                       </header>
                       <div className="post-excerpt">
                         {_.get(post, 'frontmatter.excerpt', null) && (
-                        <p>{_.get(post, 'frontmatter.excerpt', null)}</p>
-                        )}
-                        <p className="read-more">
-                          <Link className="button button-secondary" to={withPrefix(_.get(post, 'url', null))}>Read more</Link>
+                        <p>
+                          <Link to={withPrefix(_.get(post, 'url', null))} rel="bookmark">
+                            {_.get(post, 'frontmatter.excerpt', null)}
+                          </Link>
                         </p>
+                        )}
                       </div>
                     </div>
                   </div>
