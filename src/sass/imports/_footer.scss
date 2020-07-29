@@ -2,9 +2,11 @@
  * Site Footer
  */
 .site-footer {
-  background: _palette(bg);
-  padding-bottom: 0.83333em;
-  padding-top: 2.5em;
+  background:#222;
+  padding-top: 1.4em;
+  border: solid;
+  border-width: 2px 0px;
+  border-color: #b2a899;
 }
 
 .site-info,
@@ -41,7 +43,7 @@
 
   .copyright,
   a {
-    margin: 0 8px 6px 0;
+    color: #fff;
 
     &:not(.button-icon) {
       font-size: 12px;
