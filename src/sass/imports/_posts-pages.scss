@@ -60,7 +60,6 @@
 }
 
 .post-card {
-  overflow: hidden;
 
   .post-header {
     margin-bottom: 0.83333em;
@@ -81,6 +80,7 @@
     a {
       border: none;
       color: _palette(meta);
+      font-family: 'Roboto', sans-serif;
     }
   }
 
