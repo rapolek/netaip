@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
     return { statusCode: 400 };
   }
 
-  const post = await service.addLove(id);
+  const post = await service.removeLove(id);
 
   return {
     statusCode: 200,
