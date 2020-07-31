@@ -1,45 +1,41 @@
-import db from './database';
+const data = require('./database');
 
-class Service {
-  postsModel = db.model('posts');
+async function getLoves() {
+  const posts = await data.postsModel.find().exec();
 
-  async getLoves() {
-    const posts = await this.postsModel.find().exec();
-
-    return posts;
-  }
-
-  async addLove(id) {
-    const post = await this.postsModel.findOne({ id });
-
-    if (!post) {
-      const freshPost = { id, loves: 1 };
-
-      await this.postsModel.create(freshPost);
-
-      return freshPost;
-    }
-
-    const newPost = { ...post, loves: post.loves + 1 },
-    
-    await this.postsModel.update({ id }, newPost);
-
-    return newPost;
-  }
-
-  async removeLove(id) {
-    const post = await this.postsModel.findOne({ id });
-
-    if (!post) {
-      return null;
-    }
-
-    const newPost = { ...post, loves: post.loves - 1 },
-    
-    await this.postsModel.update({ id }, newPost);
-
-    return newPost;
-  }
+  return posts;
 }
 
-export default new Service();
+async function addLove(id) {
+  const post = await data.postsModel.findOne({ id });
+
+  if (!post) {
+    const freshPost = { id, loves: 1 };
+
+    await data.postsModel.create(freshPost);
+
+    return freshPost;
+  }
+
+  const newPost = { ...post, loves: post.loves + 1 };
+
+  await data.postsModel.update({ id }, newPost);
+
+  return newPost;
+}
+
+async function removeLove(id) {
+  const post = await data.postsModel.findOne({ id });
+
+  if (!post) {
+    return null;
+  }
+
+  const newPost = { ...post, loves: post.loves - 1 };
+
+  await data.postsModel.update({ id }, newPost);
+
+  return newPost;
+}
+
+module.exports = { getLoves, addLove, removeLove };

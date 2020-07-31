@@ -8,8 +8,11 @@ const postsSchema = new mongoose.Schema({
   loves: Number,
 });
 
-const db = await mongoose.connect(DB_URL);
+let db, postsModel;
 
-db.model('posts', postsSchema);
+mongoose.connect(DB_URL).then((connection) => {
+  db = connection;
+  postsModel = db.model('posts', postsSchema);
+});
 
-export default db;
+module.exports = { db, postsModel };

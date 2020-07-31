@@ -1,4 +1,4 @@
-import service from './service';
+const service = require('./service');
 
 exports.handler = async (event, context) => {
   const posts = await service.getLoves();
