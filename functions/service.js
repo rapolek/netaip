@@ -1,39 +1,43 @@
-const data = require('./database');
-
-async function getLoves() {
-  const posts = await data.postsModel.find().exec();
+async function getLoves(postsModel) {
+  const posts = await postsModel.find().exec();
 
   return posts;
 }
 
-async function addLove(id) {
-  const post = await data.postsModel.findOne({ id });
+async function addLove(postsModel, id) {
+  const post = await postsModel.findOne({ id });
+
+  console.log(post);
 
   if (!post) {
     const freshPost = { id, loves: 1 };
 
-    await data.postsModel.create(freshPost);
+    await postsModel.create(freshPost);
 
     return freshPost;
   }
 
-  const newPost = { ...post, loves: post.loves + 1 };
-
-  await data.postsModel.update({ id }, newPost);
+  const newPost = await postsModel.findOneAndUpdate(
+    { id },
+    { loves: post.loves + 1 },
+    { new: true },
+  );
 
   return newPost;
 }
 
-async function removeLove(id) {
-  const post = await data.postsModel.findOne({ id });
+async function removeLove(postsModel, id) {
+  const post = await postsModel.findOne({ id });
 
   if (!post) {
     return null;
   }
 
-  const newPost = { ...post, loves: post.loves - 1 };
-
-  await data.postsModel.update({ id }, newPost);
+  const newPost = await postsModel.findOneAndUpdate(
+    { id },
+    { loves: post.loves - 1 },
+    { new: true },
+  );
 
   return newPost;
 }

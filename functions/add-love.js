@@ -1,13 +1,20 @@
 const service = require('./service');
+const connectDb = require('./database');
+
+let db;
 
 exports.handler = async (event, context) => {
-  const id = event.query.id;
+  if (!db) {
+    db = await connectDb();
+  }
+
+  const id = event.queryStringParameters.id;
 
   if (!id) {
     return { statusCode: 400 };
   }
 
-  const post = await service.addLove(id);
+  const post = await service.addLove(db.postsModel, id);
 
   return {
     statusCode: 200,
