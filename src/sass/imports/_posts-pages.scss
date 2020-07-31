@@ -27,7 +27,7 @@
     color: inherit;
 
     &:hover {
-      color: _palette(primary);
+      color: _palette(accent);
     }
   }
 }
@@ -106,6 +106,7 @@
   border: 1px solid _palette(border);
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px 0px;
+  overflow: hidden;
 }
 
 .post-card-thumbnail {
@@ -183,6 +184,7 @@
       -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
+      overflow: hidden;
     }
 
     .post-card-thumbnail {
@@ -234,6 +236,7 @@
     .post-card-inside {
       margin-left: 0.833333em;
       margin-right: 0.833333em;
+      overflow: hidden;
     }
   }
 

@@ -11,10 +11,30 @@
         "nav_links": [
             {
                 "type": "action",
-                "label": "apie",
+                "label": "apie mane",
                 "url": "/apie/",
                 "style": "link"
+            },
+            {
+                "type": "action",
+                "label": "kontaktai",
+                "url": "/contact/",
+                "style": "link"
+            },
+            {
+                "type": "action",
+                "label": "nuotraukos",
+                "url": "/nuotraukos/",
+                "style": "link"
+            },
+            {
+                "type": "action",
+                "label": "patikę",
+                "url": "/patikę/",
+                "style": "link"
             }
+
+
         ]
     },
     "footer": {
