@@ -353,9 +353,9 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 .button {
-  background: _palette(accent);
-  border: 2px solid _palette(accent);
-  border-radius: 3px;
+  background: transparent;
+  border: 2px solid _palette(secondary);
+  border-radius: 50%;
   box-sizing: border-box;
   color: #fff;
   display: inline-block;
@@ -369,6 +369,9 @@ input[type="reset"],
   -webkit-transition: .3s ease;
   transition: .3s ease;
   vertical-align: middle;
+  padding: 10px;
+  height: 38px;
+  margin-left: 20px;
 
   &:hover,
   &:focus,

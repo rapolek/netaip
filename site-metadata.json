@@ -11,6 +11,12 @@
         "nav_links": [
             {
                 "type": "action",
+                "label": "eilėraščiai",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "type": "action",
                 "label": "apie mane",
                 "url": "/apie/",
                 "style": "link"
@@ -20,20 +26,7 @@
                 "label": "kontaktai",
                 "url": "/contact/",
                 "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "nuotraukos",
-                "url": "/nuotraukos/",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "patikę",
-                "url": "/patikę/",
-                "style": "link"
             }
-
 
         ]
     },

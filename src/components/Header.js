@@ -36,6 +36,9 @@ export default class Header extends React.Component {
                           <ActionLink {...this.props} action={action} />
                         </li>
                         ))}
+                      <button>
+                        <i className="icon fab fa-github"></i>
+                      </button>
                       </ul>
                     </div>
                   </nav>
