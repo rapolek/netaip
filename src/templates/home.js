@@ -14,11 +14,11 @@ export const query = graphql`
       id
     }
   }
-`;
+`;5
 
 const Home = (props) => {
   const [loves, setLoves] = React.useState([
-    { id: "basic-rules-for-walking-in-the-mountains", loves: 3 },
+    { id: "basic-rules-for-walking-in-the-mountains", loves: 0,}
   ]);
 
   function addLove(id) {
@@ -121,10 +121,11 @@ const Home = (props) => {
                   )}
                 </div>
                 <div className="love">
-                  <button onClick={() => addLove(post.name)}>luv</button>
+                  <button onClick={() => addLove(post.name)}>
+                    <i className="far fa-heart"></i>
+                  </button>
                   <div className="how-many-people-liked-this">
-                    {loves.find((page) => page.id === post.name)?.loves} people
-                    liked this
+                    {loves.find((page) => page.id === post.name)?.loves} 
                   </div>
                 </div>
               </div>

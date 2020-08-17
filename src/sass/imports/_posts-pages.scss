@@ -257,8 +257,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .how-many-people-liked-this {
-  color: #b2a899
+ color: _palette(secondary)
 }

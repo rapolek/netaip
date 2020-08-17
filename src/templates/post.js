@@ -45,7 +45,6 @@ const Post = (props) => {
           {htmlToReact(_.get(props, 'pageContext.html', null))}
           <div className='love'>
             <button onClick={addLove}>
-              luv
             </button>
             <div class="how-many-people-liked-this">
               {loves} people liked this

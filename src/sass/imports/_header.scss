@@ -58,6 +58,10 @@
     color: _palette(meta);
   }
 
+  .fav{
+    margin-left: 20px;
+  }
+
   a {
     &:not(.button) {
       border: 0;
