@@ -14,11 +14,13 @@ export const query = graphql`
       id
     }
   }
-`;5
+`;
 
 const Home = (props) => {
   const [loves, setLoves] = React.useState([
-    { id: "basic-rules-for-walking-in-the-mountains", loves: 0,}
+    { id: "basic-rules-for-walking-in-the-mountains", loves: 0},
+    { id: "fox-village-in-japan", loves: 0},
+    { id: "3", loves: 0},
   ]);
 
   function addLove(id) {
