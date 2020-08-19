@@ -18,11 +18,11 @@ export const query = graphql`
 
 const Home = (props) => {
   const [loves, setLoves] = React.useState([
-    { id: "basic-rules-for-walking-in-the-mountains", loves: 0},
-    { id: "fox-village-in-japan", loves: 0},
-    { id: "3", loves: 0},
-  ]);
-
+    { id: "basic-rules-for-walking-in-the-mountains", loves: 0, isLoved: localStorage.getItem('basic-rules-for-walking-in-the-mountains') },
+    { id: "fox-village-in-japan", loves: 0, isLoved: localStorage.getItem('fox-village-in-japan') },
+    { id: "3", loves: 0, isLoved: localStorage.getItem('3') },
+  ]);  
+  
   function addLove(id) {
     const newLoves = loves.map((page) => {
       if (page.id === id) {
@@ -31,14 +31,35 @@ const Home = (props) => {
 
       return page;
     });
+    
+    localStorage.setItem(id, true);
 
     setLoves(newLoves);
   }
 
   function removeLove(id) {
-    setLoves(loves - 1);
+    const removeLoves = loves.map((page) => {
+      if (page.id === id) {
+        return { ...page, loves: page.loves - 1 };
+      }      
+
+      return page;
+    });
+
+    localStorage.setItem(id, false);
+
+    setLoves(newLoves - 1);
   }
 
+  
+  function handleLove(id) {
+    if (localStorage.getItem(id)) {
+      removeLove(id);
+    } else {
+      addLove(id);
+    }
+  }
+  
   let display_posts = _.orderBy(
     getPages(props.pageContext.pages, "/posts"),
     "frontmatter.date",
@@ -123,11 +144,12 @@ const Home = (props) => {
                   )}
                 </div>
                 <div className="love">
-                  <button onClick={() => addLove(post.name)}>
+                  <button onClick={() => handleLove(post.name)}>
                     <i className="far fa-heart"></i>
+                    {localStorage.getItem(post.name)}
                   </button>
                   <div className="how-many-people-liked-this">
-                    {loves.find((page) => page.id === post.name)?.loves} 
+                    {loves.find((page) => page.id === post.name)?.loves}
                   </div>
                 </div>
               </div>
