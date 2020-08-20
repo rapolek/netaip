@@ -40,7 +40,7 @@ const Home = (props) => {
       );
       const data = await response.json();
 
-      const newLoves = loves.map((page) => {
+      const newLoves = initialState.map((page) => {
         const item = data.find((post) => page.id === post.id);
 
         if (!item) {
