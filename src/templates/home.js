@@ -23,15 +23,17 @@ const Home = (props) => {
     "desc"
   );
 
-  const initialState = display_posts.map((page) => ({
-    id: page.name,
-    loves: 0,
-    isLoved: !!window.localStorage?.getItem(page.name),
-  }));
-
-  const [loves, setLoves] = React.useState(initialState);
+  const [loves, setLoves] = React.useState([]);
 
   React.useEffect(() => {
+    const initialState = display_posts.map((page) => ({
+      id: page.name,
+      loves: 0,
+      isLoved: !!localStorage.getItem(page.name),
+    }));
+
+    setLoves(initialState);
+
     async function fetchData() {
       const response = await fetch(
         "https://netaip.netlify.app/.netlify/functions/get-loves"
