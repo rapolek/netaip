@@ -4,7 +4,14 @@ import moment from "moment-strftime";
 import { graphql } from "gatsby";
 
 import { Layout } from "../components/index";
-import { markdownify, Link, withPrefix, classNames, getPages } from "../utils";
+import {
+  markdownify,
+  Link,
+  withPrefix,
+  classNames,
+  getPages,
+  htmlToReact,
+} from "../utils";
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
@@ -151,24 +158,11 @@ const Home = (props) => {
                 <header className="post-header">
                   <div className="post-meta"></div>
                   <h2 className="post-title">
-                    <Link
-                      to={withPrefix(_.get(post, "url", null))}
-                      rel="bookmark"
-                    >
-                      {_.get(post, "frontmatter.title", null)}
-                    </Link>
                   </h2>
                 </header>
                 <div className="post-excerpt">
-                  {_.get(post, "frontmatter.excerpt", null) && (
-                    <p>
-                      <Link
-                        to={withPrefix(_.get(post, "url", null))}
-                        rel="bookmark"
-                      >
-                        {_.get(post, "frontmatter.excerpt", null)}
-                      </Link>
-                    </p>
+                  {_.get(post, "html", null) && (
+                    <p>{htmlToReact(_.get(post, "html", null))}</p>
                   )}
                 </div>
                 <div className="love">
