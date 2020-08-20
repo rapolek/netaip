@@ -17,55 +17,71 @@ export const query = graphql`
 `;
 
 const Home = (props) => {
-  const [loves, setLoves] = React.useState([
-    { id: "basic-rules-for-walking-in-the-mountains", loves: 0, isLoved: localStorage.getItem('basic-rules-for-walking-in-the-mountains') },
-    { id: "fox-village-in-japan", loves: 0, isLoved: localStorage.getItem('fox-village-in-japan') },
-    { id: "3", loves: 0, isLoved: localStorage.getItem('3') },
-  ]);  
-  
+  const [loves, setLoves] = React.useState([]);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(
+        "https://netaip.netlify.app/.netlify/functions/get-loves"
+      );
+      const data = await response.json();
+
+      const newLoves = data.map((page) => ({
+        id: page.id,
+        loves: page.loves,
+        isLoved: !!localStorage.getItem(page.id),
+      }));
+
+      setLoves(newLoves);
+    }
+
+    fetchData();
+  }, []);
+
   function addLove(id) {
     const newLoves = loves.map((page) => {
       if (page.id === id) {
-        return { ...page, loves: page.loves + 1 };
+        return { ...page, loves: page.loves + 1, isLoved: true };
       }
 
       return page;
     });
-    
-    localStorage.setItem(id, true);
+
+    localStorage.setItem(id, "liked");
+    fetch(`https://netaip.netlify.app/.netlify/functions/add-love?id=${id}`);
 
     setLoves(newLoves);
   }
 
   function removeLove(id) {
-    const removeLoves = loves.map((page) => {
+    const newLoves = loves.map((page) => {
       if (page.id === id) {
-        return { ...page, loves: page.loves - 1 };
-      }      
+        return { ...page, loves: page.loves - 1, isLoved: false };
+      }
 
       return page;
     });
 
-    localStorage.setItem(id, false);
+    localStorage.removeItem(id);
+    fetch(`https://netaip.netlify.app/.netlify/functions/remove-love?id=${id}`);
 
-    setLoves(newLoves - 1);
+    setLoves(newLoves);
   }
 
-  
   function handleLove(id) {
-    if (localStorage.getItem(id)) {
+    if (loves.find((page) => page.id === id)?.isLoved) {
       removeLove(id);
     } else {
       addLove(id);
     }
   }
-  
+
   let display_posts = _.orderBy(
     getPages(props.pageContext.pages, "/posts"),
     "frontmatter.date",
     "desc"
   );
-  console.log(display_posts);
+
   return (
     <Layout {...props}>
       {_.get(props, "pageContext.frontmatter.has_intro", null) && (
@@ -145,8 +161,13 @@ const Home = (props) => {
                 </div>
                 <div className="love">
                   <button onClick={() => handleLove(post.name)}>
-                    <i className="far fa-heart"></i>
-                    {localStorage.getItem(post.name)}
+                    <i
+                      className={`fa-heart ${
+                        loves.find((page) => page.id === post.name)?.isLoved
+                          ? "fas"
+                          : "far"
+                      }`}
+                    ></i>
                   </button>
                   <div className="how-many-people-liked-this">
                     {loves.find((page) => page.id === post.name)?.loves}
