@@ -26,7 +26,7 @@ const Home = (props) => {
   const initialState = display_posts.map((page) => ({
     id: page.name,
     loves: 0,
-    isLoved: !!localStorage?.getItem(page.name),
+    isLoved: localStorage && !!localStorage.getItem(page.name),
   }));
 
   const [loves, setLoves] = React.useState(initialState);
