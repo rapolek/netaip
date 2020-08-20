@@ -17,7 +17,19 @@ export const query = graphql`
 `;
 
 const Home = (props) => {
-  const [loves, setLoves] = React.useState([]);
+  let display_posts = _.orderBy(
+    getPages(props.pageContext.pages, "/posts"),
+    "frontmatter.date",
+    "desc"
+  );
+
+  const initialState = display_posts.map((page) => ({
+    id: page.name,
+    loves: 0,
+    isLoved: !!localStorage.getItem(page.name),
+  }));
+
+  const [loves, setLoves] = React.useState(initialState);
 
   React.useEffect(() => {
     async function fetchData() {
@@ -26,11 +38,15 @@ const Home = (props) => {
       );
       const data = await response.json();
 
-      const newLoves = data.map((page) => ({
-        id: page.id,
-        loves: page.loves,
-        isLoved: !!localStorage.getItem(page.id),
-      }));
+      const newLoves = loves.map((page) => {
+        const item = data.find((post) => page.id === post.id);
+
+        if (!item) {
+          return page;
+        }
+
+        return { ...page, loves: item.loves };
+      });
 
       setLoves(newLoves);
     }
@@ -75,12 +91,6 @@ const Home = (props) => {
       addLove(id);
     }
   }
-
-  let display_posts = _.orderBy(
-    getPages(props.pageContext.pages, "/posts"),
-    "frontmatter.date",
-    "desc"
-  );
 
   return (
     <Layout {...props}>
