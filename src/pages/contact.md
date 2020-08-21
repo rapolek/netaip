@@ -6,35 +6,26 @@ form_fields:
   - type: form_field
     input_type: text
     name: name
-    label: Name
-    default_value: Your name
+    label: Vardas
+    default_value: Jūsų vardas
     is_required: true
   - type: form_field
     input_type: email
     name: email
-    label: Email
-    default_value: Your email address
+    label: El. pašto adresas
+    default_value: Jūsų el. pašto adresas
     is_required: true
-  - type: form_field
-    input_type: select
-    name: subject
-    label: Subject
-    default_value: Please select
-    options:
-      - Error on the site
-      - Sponsorship
-      - Other
   - type: form_field
     input_type: textarea
     name: message
-    label: Message
-    default_value: Your message
+    label: Žinutė
+    default_value: Jūsų žinutė
   - type: form_field
     input_type: checkbox
     name: consent
     label: I understand that this form is storing my submitted information so I
       can	 be contacted.
-submit_label: Send Message
+submit_label: SIŲSTI
 template: contact
 ---
 
