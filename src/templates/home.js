@@ -30,6 +30,7 @@ const Home = (props) => {
     "desc"
   );
 
+  const [isLovedFiltered, setIsLovedFiltered] = React.useState(false);
   const [loves, setLoves] = React.useState([]);
 
   React.useEffect(() => {
@@ -102,7 +103,11 @@ const Home = (props) => {
   }
 
   return (
-    <Layout {...props}>
+    <Layout
+      {...props}
+      isLovedFiltered={isLovedFiltered}
+      setIsLovedFiltered={setIsLovedFiltered}
+    >
       {_.get(props, "pageContext.frontmatter.has_intro", null) && (
         <div className="intro">
           <div className="inner-md">
@@ -142,47 +147,48 @@ const Home = (props) => {
         </div>
       )}
       <div className="post-feed">
-        {_.map(display_posts, (post, post_idx) => (
-          <article key={post_idx} className="post post-card">
-            <div className="post-card-inside">
-              {_.get(post, "frontmatter.thumb_img_path", null) && (
-                <img
-                  className="thumbnail"
-                  src={withPrefix(
-                    _.get(post, "frontmatter.thumb_img_path", null)
-                  )}
-                  alt={_.get(post, "frontmatter.title", null)}
-                />
-              )}
-              <div className="post-card-content">
-                <header className="post-header">
-                  <div className="post-meta"></div>
-                  <h2 className="post-title">
-                  </h2>
-                </header>
-                <div className="post-excerpt">
-                  {_.get(post, "html", null) && (
-                    <p>{htmlToReact(_.get(post, "html", null))}</p>
-                  )}
-                </div>
-                <div className="love">
-                  <button onClick={() => handleLove(post.name)}>
-                    <i
-                      className={`fa-heart ${
-                        loves.find((page) => page.id === post.name)?.isLoved
-                          ? "fas"
-                          : "far"
-                      }`}
-                    ></i>
-                  </button>
-                  <div className="how-many-people-liked-this">
-                    {loves.find((page) => page.id === post.name)?.loves}
+        {_.map(display_posts, (post, post_idx) => {
+          const isLoved = loves.find((page) => page.id === post.name)?.isLoved;
+
+          if (isLovedFiltered && !isLoved) {
+            return null;
+          }
+
+          return (
+            <article key={post_idx} className="post post-card">
+              <div className="post-card-inside">
+                {_.get(post, "frontmatter.thumb_img_path", null) && (
+                  <img
+                    className="thumbnail"
+                    src={withPrefix(
+                      _.get(post, "frontmatter.thumb_img_path", null)
+                    )}
+                    alt={_.get(post, "frontmatter.title", null)}
+                  />
+                )}
+                <div className="post-card-content">
+                  <header className="post-header">
+                    <div className="post-meta"></div>
+                    <h2 className="post-title"></h2>
+                  </header>
+                  <div className="post-excerpt">
+                    {_.get(post, "html", null) && (
+                      <p>{htmlToReact(_.get(post, "html", null))}</p>
+                    )}
+                  </div>
+                  <div className="love">
+                    <button onClick={() => handleLove(post.name)}>
+                      <i className={`fa-heart ${isLoved ? "fas" : "far"}`}></i>
+                    </button>
+                    <div className="how-many-people-liked-this">
+                      {loves.find((page) => page.id === post.name)?.loves}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </article>
-        ))}
+            </article>
+          );
+        })}
       </div>
     </Layout>
   );
