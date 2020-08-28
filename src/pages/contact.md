@@ -20,11 +20,6 @@ form_fields:
     name: message
     label: Žinutė
     default_value: Jūsų žinutė
-  - type: form_field
-    input_type: checkbox
-    name: consent
-    label: I understand that this form is storing my submitted information so I
-      can	 be contacted.
 submit_label: SIŲSTI
 template: contact
 ---
