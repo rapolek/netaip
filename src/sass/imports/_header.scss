@@ -26,7 +26,8 @@
   a {
     border: 0;
     color: _palette(meta);
-    font-family: 'Oswald', sans-serif;  }
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400; }
   }
 
 .site-logo {
@@ -51,6 +52,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 .menu-item {
@@ -225,5 +227,5 @@
 @media (max-width: 360px) {
   .site-nav {
     border-left: 0;
+    }
   }
-}
