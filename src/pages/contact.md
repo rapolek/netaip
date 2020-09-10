@@ -1,5 +1,5 @@
 ---
-title: Get in Touch
+title: Susisiekim!
 img_path: ""
 form_id: contactForm
 form_fields:
