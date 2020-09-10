@@ -1,6 +1,6 @@
 ---
 title: Apie mane
-subtitle: Šiek tiek apie mane ir mano kūrybą
+subtitle: ""
 excerpt: Keliaujam
 img_path: /images/6tag-814471738-1287184513541553840_814471738-copy.jpg
 template: page
