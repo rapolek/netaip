@@ -1,5 +1,5 @@
 ---
-title: Susisiekim!
+title: Parašyk man
 img_path: ""
 form_id: contactForm
 form_fields:
@@ -23,5 +23,3 @@ form_fields:
 submit_label: SIŲSTI
 template: contact
 ---
-
-Fill the form below to get in touch with me.
