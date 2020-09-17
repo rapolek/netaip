@@ -167,14 +167,16 @@ const Home = (props) => {
                   />
                 )}
                 <div className="post-card-content">
-                  <header className="post-header">
-                    <div className="post-meta"></div>
-                    <h2 className="post-title"></h2>
-                  </header>
-                  <div className="post-excerpt">
-                    {_.get(post, "html", null) && (
-                      <p>{htmlToReact(_.get(post, "html", null))}</p>
-                    )}
+                  <div>
+                    <header className="post-header">
+                      <div className="post-meta"></div>
+                      <h2 className="post-title"></h2>
+                    </header>
+                    <div className="post-excerpt">
+                      {_.get(post, "html", null) && (
+                        <p>{htmlToReact(_.get(post, "html", null))}</p>
+                      )}
+                    </div>
                   </div>
                   <div className="love">
                     <button onClick={() => handleLove(post.name)}>
