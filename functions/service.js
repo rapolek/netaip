@@ -7,8 +7,6 @@ async function getLoves(postsModel) {
 async function addLove(postsModel, id) {
   const post = await postsModel.findOne({ id });
 
-  console.log(post);
-
   if (!post) {
     const freshPost = { id, loves: 1 };
 
@@ -19,24 +17,18 @@ async function addLove(postsModel, id) {
 
   const newPost = await postsModel.findOneAndUpdate(
     { id },
-    { loves: post.loves + 1 },
-    { new: true },
+    { $inc: { loves: 1 } },
+    { new: true }
   );
 
   return newPost;
 }
 
 async function removeLove(postsModel, id) {
-  const post = await postsModel.findOne({ id });
-
-  if (!post) {
-    return null;
-  }
-
   const newPost = await postsModel.findOneAndUpdate(
-    { id },
-    { loves: post.loves - 1 },
-    { new: true },
+    { id, loves: { $gte: 1 } },
+    { $inc: { loves: -1 } },
+    { new: true }
   );
 
   return newPost;
