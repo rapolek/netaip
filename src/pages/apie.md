@@ -1,16 +1,22 @@
 ---
-title: About Me
-subtitle: This is a short page about me and my work
-img_path: images/about.jpg
+title: Apie mane
+subtitle: ""
+excerpt: Keliaujam
+img_path: /images/6tag-814471738-1287184513541553840_814471738-copy.jpg
 template: page
 ---
+Gimiau ir užaugau Vilniuje, medikės ir dailininko šeimoje. 
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+Labai mėgau matematiką ir darbas su kasa man atrodė kaip tikrai pats įdomiausias, koks tik gali būti, užsiėmimas (tiesa, kasą turėjau tik žaislinę). Nuo penktos klasės pažindinausi su teatru ir vaidyba, tačiau lemiamu momentu pasirinkau studijuoti odontologiją. 
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+Turiu dvi seses ir brolį - jie man labai brangūs. Taip pat turiu mylimiausią draugę Liepą, su kuria užaugau ir susiformavau tokia, kokia esu. Draugaudamos susikūrėm daugybę gražių patirčių ir kelionių, kurių vienas neturėtum ūpo įgyvendinti ir turbūt net nebūtų prasmės.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+***Apie mano kūrybą:***
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+*Mano eilėraščiai nėra rimuoti, man tiesiog taip gaunasi, taigi iš manųjų dainų nesukursi. Pastebėjau, kad rimuotus eilėraščius tinka įdainuoti, o manieji - skaitymui. Man atrodo, kad labai sunku taip paskaityti eilėraštį žmonėms, kad jis nesuskambėtų per poetiškai ar net patosiškai, lyg riteris savo damai meilėj prisipažintų prie pilies bokšto. Eilėraščius reikia skaityti paprastai, bet tuo pačiu subtiliai, pajaučiant akcentus.* 
 
-*Thank You for reading!*
+*Vienas smagiausių dalykų rašant eilėraštį yra sekančio žodžio nenuspėjamumas. Parašius vieną žodį tikimasi šalia derančio kito, tačiau atsiranda visai kitoks asociatyvas - keičiantis prasmę aukštyn kojom. Man labai smagu taip rašyti, žaisti prasmėm, klausyti kaip mano eilėraštį perskaitys kitas - kur sudės neparašytus kablelius.* 
+
+*Poezija labai įdomus įrankis papasakoti daug labai santūriai, apjungiant keletą žodžių ir frazių. Tai labai tinkama aprašinėjant momentą, kuris atsitinka labai greitai, ir tuo metu daug nespėji prigalvoti ir peranalizuoti.*
+
+*Taigi, mano kūryba labai momentiška, trumpa, nes nėra ką daug kalbėti kai praėjus vienam jau vyksta visai kas kito.*
