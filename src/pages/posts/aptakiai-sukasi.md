@@ -3,20 +3,28 @@ title: Aptakiai sukasi
 date: 2020-09-04T15:20:30.969Z
 template: post
 ---
-*Aptakiai sukasi*
+*Smėlio namai*
 
-*Stiklinėje vanduo*
+*Pastatyti*
 
-*Pilasi per kraštus*
+*Grįžk namo prieš šešias* 
 
-*Džiaugsmas*
+*Traukinys vėluoja* 
 
-*Užlieja visą pasauly*
+*Dar pradeda lyti*
 
-*O sode*
+*Grįžk namo prieš šešias* 
 
-*Sunokę abrikosai*
+*Užmerkiu akis* 
 
-*Vakarinėj saulėj* 
+*Ir saulė atsimuša į išblukusias* 
 
-*Gimė vaikas*
+*Tavo blakstienas* 
+
+*Auksinę valandą*
+
+*Tyliu aš vienas*
+
+*Tu vienas* 
+
+*Grįžęs namo prieš šešias*
