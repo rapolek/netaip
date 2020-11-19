@@ -34,5 +34,3 @@ paslapčia klausėsi
 Ir užliejo skylę
 
 Balta taika
-
-Tai ką - viskas
