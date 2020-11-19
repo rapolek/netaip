@@ -2,7 +2,7 @@
 title: Persmelkia kūną
 subtitle: ""
 date: 2020-06-29T21:00:00.000Z
-thumb_img_path: /images/img_1745-min.jpg
+thumb_img_path: /images/img_1745-min-copy.jpg
 content_img_path: ""
 excerpt: ""
 template: post
