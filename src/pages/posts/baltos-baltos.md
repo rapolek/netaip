@@ -1,18 +1,30 @@
 ---
-title: baltos baltos
+title: laukinė stirna
 date: 2020-11-19T20:28:55.969Z
 template: post
 ---
-**Baltos baltos** 
+*Laukinė stirna* 
 
-**Tavo rankos** 
+*Neranda namų* 
 
-**Skina pavarasį**
+*Ir nori išsaugot*
 
-**Susikrauna vėjo nulaužtas šakas** 
+*Prabėgusį vasaros laiką*
 
-**Įžiebia ugnį**
+*Nubrozdintas kojas* 
 
-**Ir veidu į saulę**
+*Palydėti*
 
-**Sveikina atvykusį**
+*mėnulį į pievą* 
+
+*Kur skuba bėgiais* 
+
+*Ištroškę keleiviai*
+
+*Sustabdyt*
+
+*Pravažiuojantį traukinį*
+
+*Susigerti į žemę* 
+
+*Ir sugrįžti namo*
