@@ -1,34 +1,32 @@
 ---
-title: prasiskyniau kelią
+title: sklando gandas
 date: 2020-11-19T20:32:54.571Z
 template: post
 ---
-*Prasiskyniau kelią*
+*Sklando gandas* 
 
-*Į namus* 
+*Virš Vilniaus stogų*
 
-*Nusidilginau kojas* 
+*Kad mes kartu* 
 
-*Įsisiurbė erkė*
+*O išties vien du* 
 
-*Atnešė ligą*
+*Skaičiuojam žingsnius* 
 
-*Pasveikau*
+*Iki posūkio* 
 
-*Sutikau draugą*
+*Matuojam sprindžiais* 
 
-*Palinkėjom laimingai* 
+*Nueitą kelią* 
 
-*Ir išsiskyrėm*
+*Laikui*
 
-*Susikroviau ką radau į kišenes* 
+*Ištekėjus*
 
-*Viską pamečiau* 
+*Vilnele plauksim* 
 
-*Ir taip tuščiomis* 
+*Kas sau*
 
-*Grįžau namo* 
+*Nugara pasroviui*
 
-*kritau į švarius patalus*
-
-*Ir užmigau*
+*Pilvu priešais*
