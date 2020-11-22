@@ -3,9 +3,7 @@ title: vis girdi
 date: 2020-11-19T20:37:57.552Z
 template: post
 ---
-*Vis girdi*
-
-*Kad reikia ne taip* 
+*Reikia ne taip* 
 
 *O gal ne taip ir reikia* 
 
@@ -21,9 +19,9 @@ template: post
 
 *Nors kažkaip ne taip užsirišau* 
 
-*Ir šiaip ar taip nereikia*
+*Ir šiaip ar taip* 
 
-*Vaistų*
+*Vaistai neveikia* 
 
 *Kai su galva kažkas ne taip* 
 
