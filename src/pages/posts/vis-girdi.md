@@ -27,7 +27,7 @@ template: post
 
 *Kai su galva kažkas ne taip* 
 
-*Minkštos mintys* 
+*Tirštos mintys* 
 
 *Gerai papurčius* 
 
