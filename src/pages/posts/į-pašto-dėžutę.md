@@ -3,22 +3,22 @@ title: į pašto dėžutę
 date: 2020-11-19T20:36:03.287Z
 template: post
 ---
-Į pašto dėžutę 
+į pašto dėžutę 
 
-Atėjo vokas 
+atėjo vokas 
 
-Be laiško 
+be laiško 
 
-Be kvietimų
+be kvietimų
 
-Be mokesčių 
+be mokesčių 
 
-Be skundų
+be skundų
 
-Be priekaištų 
+be priekaištų 
 
-Tik tuščias vokas 
+tik tuščias vokas 
 
-Taigi ir nusivilti 
+taigi ir nusivilti 
 
-Nėra kuo
+nėra kuo
