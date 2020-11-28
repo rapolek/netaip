@@ -4,26 +4,26 @@ date: 2020-11-19T20:38:28.749Z
 thumb_img_path: /images/img_6864.jpg
 template: post
 ---
-*Girgžda*
+*girgžda*
 
-*Durų vyriai*
+*durų vyriai*
 
-*Grindys*
+*grindys*
 
-*Po kojom* 
+*po kojom* 
 
-*Nėra sniego* 
+*nėra sniego* 
 
-*Ir iš visų jėgų* 
+*tad iš visų jėgų* 
 
-*Stengiuosi*
+*stengiuosi*
 
-*Tavęs neprikelti*
+*tavęs neprikelti*
 
-*Nors žinau*
+*nors žinau*
 
-*Kad dar nemiegi*
+*kad dar nemiegi*
 
-*Budi ir lauki* 
+*budi ir lauki* 
 
-*Pirmo sniego*
+*pirmo sniego*
