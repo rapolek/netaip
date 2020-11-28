@@ -3,34 +3,32 @@ title: vis girdi
 date: 2020-11-19T20:37:57.552Z
 template: post
 ---
-*Reikia ne taip* 
+*reikia ne taip* 
 
-*O gal ne taip ir reikia* 
+*o gal ne taip ir reikia* 
 
-*Kalbėtis*
+*kalbėtis nerišliai*
 
-*Nerišliai*
+*su daug pauzių* 
 
-*Su daug pauzių* 
+*ne taip ir spaudžia* 
 
-*Ne taip ir spaudžia* 
+*batai* 
 
-*Batai*
+*nors kažkaip ne taip užsirišau* 
 
-*Nors kažkaip ne taip užsirišau* 
+*ir šiaip ar taip* 
 
-*Ir šiaip ar taip* 
+*vaistai neveikia* 
 
-*Vaistai neveikia* 
+*kai su galva kažkas ne taip* 
 
-*Kai su galva kažkas ne taip* 
+*tirštos mintys* 
 
-*Tirštos mintys* 
-
-*Gerai papurčius* 
+*gerai papurčius* 
 
 *galvą pranyksta*
 
-*Ir lieka tik taip*
+*ir lieka tik taip*
 
-*Ieškota teisybė*
+*ieškota teisybė*
