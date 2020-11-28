@@ -1,25 +1,35 @@
 ---
-title: Naktis
+title: svaigsta galva
 date: 2020-11-19T20:20:00.595Z
 excerpt: ""
 template: post
 ---
-*Naktis*
+svaigsta galva 
 
-*Jazminų kvapo*
+nuo kaitros 
 
-*Paklotos lovos* 
+pasiūlai ledų
 
-*Laukia vėluojančių*
+iškart nesutinku
 
-*Surenku pilnus delnus jonvabalių*
+bet visus metus galvoju 
 
-*Susegu tau į plaukus*
+iki kitos vasaros 
 
-*Rodai man kelią*
+apie ledus 
 
-*Ir iš lėto skubame* 
+ir užšaldytą laiką
 
-*Pamatyti*
+Antarktidoje
 
-*jau prasidėjusį sapną*
+kur ledai
+
+rankoje tirpsta nuo karščio 
+
+tavo ranka tirpsta
+
+mano rankoje
+
+primena vasarą
+
+Antarktidoje
