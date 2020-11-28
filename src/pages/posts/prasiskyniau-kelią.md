@@ -3,30 +3,26 @@ title: sklando gandas
 date: 2020-11-19T20:32:54.571Z
 template: post
 ---
-*Sklando gandas* 
+*sklando gandas* 
 
-*Virš Vilniaus stogų*
+*virš Vilniaus stogų*
 
-*Kad mes kartu* 
+*kad mes kartu* 
 
-*O išties vien du* 
+*o išties vien du* 
 
-*Skaičiuojam žingsnius* 
+*skaičiuojam žingsnius* 
 
-*Iki posūkio* 
+*iki posūkio* 
 
-*Matuojam sprindžiais* 
+*matuojam sprindžiais* 
 
-*Nueitą kelią* 
+*nueitą kelią* 
 
-*Laikui*
+*laikui vaizdingai* 
 
-*Ištekėjus*
+*ištekėjus Vilnele* 
 
-*Vilnele plauksim* 
+*grįšim laiku*
 
-*Kas sau*
-
-*Nugara pasroviui*
-
-*Pilvu priešais*
+*kas sau*
