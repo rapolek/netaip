@@ -4,32 +4,32 @@ date: 2020-09-04T15:18:34.981Z
 thumb_img_path: /images/6tag-286271654-1507826013185701350_286271654-copy.jpg
 template: post
 ---
-*Apkabini ir*
+*apkabini ir*
 
-*Sakai man čiau*
+*sakai man čiau*
 
-*Sakau*
+*sakau*
 
-*Ar gali arčiau* 
+*ar gali arčiau* 
 
-*Nes negirdžiu* 
+*nes negirdžiu* 
 
-*Kaip tuksi*
+*kaip tuksi*
 
-*Į langą geniai* 
+*į langą geniai* 
 
-*Nes nematau*  
+*nes nematau*  
 
-*Pabaigos*
+*pabaigos*
 
-*Ir apskritai* 
+*ir apskritai* 
 
-*Ir atvirai* 
+*ir atvirai* 
 
-*Ir aiškiai* 
+*ir aiškiai* 
 
-*Nematau*
+*nematau*
 
-*Pamesto kvietimo* \
+*pamesto kvietimo* \
 \
-*Rytojui*
+*rytojui*
