@@ -1,30 +1,30 @@
 ---
-title: Aptakiai sukasi
+title: "*sustoję mojuoja*"
 date: 2020-09-04T15:20:30.969Z
 template: post
 ---
-*Smėlio namai*
+*sustoję mojuoja*
 
-*Pastatyti*
+*nebėr ką daryti*
 
-*Grįžk namo prieš šešias* 
+*grįžk namo prieš šešias* 
 
-*Traukinys vėluoja* 
+*traukinys vėluoja* 
 
-*Dar pradeda lyti*
+*vėl pradeda lyti*
 
-*Grįžk namo prieš šešias* 
+*grįžk namo prieš šešias* 
 
-*Užmerkiu akis* 
+*užmerkiu akis* 
 
-*Ir saulė atsimuša į išblukusias* 
+*ir saulė atsimuša į išblukusias* 
 
-*Tavo blakstienas* 
+*tavo blakstienas* 
 
-*Auksinę valandą*
+*auksinę valandą*
 
-*Tyliu aš vienas*
+*tyliu aš vienas*
 
-*Tu vienas* 
+*tu vienas* 
 
-*Grįžęs namo prieš šešias*
+*grįžęs namo prieš šešias*
