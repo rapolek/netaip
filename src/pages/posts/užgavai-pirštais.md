@@ -3,34 +3,34 @@ title: Užgavai pirštais
 date: 2020-11-19T20:04:54.594Z
 template: post
 ---
-Užgavai pirštais 
+užgavai pirštais 
 
-Mano balso stygas 
+mano balso stygas 
 
-Ir sustojęs laikrodis 
+ir sustojęs laikrodis 
 
-Išmušė vidunaktį skylę 
+išmušė vidunaktį skylę
 
-Kaip nekaltas vaikas 
+kaip vaikas su akmeniu 
 
-Su akmeniu 
+pasipylusios ašaros 
 
-Pasipylusios ašaros 
+rinkosi į balą
 
-Rinkosi į balą
+o susirinkusios
 
-Drauge verkė lietus 
+sprendė einamuosius klausimus
 
-Ir negirdėjo 
+apie tave
 
-Ir nematė 
+sakė negirdėjo 
 
-Niekas
+ir nematė niekas
 
-Tik pilnas mėnulis 
+tik pilnas mėnulis 
 
 paslapčia klausėsi
 
-Ir užliejo skylę
+ir užliejo skylę
 
-Balta taika
+balta taika
