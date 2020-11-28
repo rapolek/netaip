@@ -7,26 +7,26 @@ content_img_path: ""
 excerpt: ""
 template: post
 ---
-*Persmelkia kūną*
+*persmelkia kūną*
 
-*Žinojimas*
+*žinojimas*
 
-*Kur pasidėjau*
+*kur pasidėjau*
 
-*Grįžta laikas*
+*grįžta laikas*
 
-*Į vietą*
+*į vietą*
 
-*Džiaugsmas*
+*džiaugsmas*
 
-*Veržiasi pro kraštus*
+*veržiasi pro kraštus*
 
-*Pripildo mišką*
+*pripildo mišką*
 
-*Paukščių kliegesys*
+*paukščių kliegesys*
 
-*O mintyse sukasi*
+*o mintyse sukasi*
 
-*Dar šilta*
+*dar šilta*
 
-*Vakarienė*
+*vakarienė*
