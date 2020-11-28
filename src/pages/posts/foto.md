@@ -4,22 +4,22 @@ date: 2020-11-19T20:05:47.123Z
 thumb_img_path: /images/img_5750.jpg
 template: post
 ---
-*Lyja*
+*lyja*
 
-*Iš tavo kišenės*
+*iš tavo kišenės*
 
-*Smėliu*
+*smėliu*
 
-*Sugedęs televizorius* 
+*sugedęs televizorius* 
 
-*Rodo mūsų* 
+*rodo mūsų* 
 
-*Nugairintus veidus* 
+*nugairintus veidus* 
 
-*O namuose* 
+*o namuose* 
 
-*Laukia prisiminimai* 
+*laukia prisiminimai* 
 
 *balti patalai*
 
-*Ir planas sugrįžti*
+*ir planas sugrįžti*
