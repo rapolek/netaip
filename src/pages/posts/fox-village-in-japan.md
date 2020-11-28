@@ -7,30 +7,30 @@ content_img_path: ""
 excerpt: ""
 template: post
 ---
-*Šiandien ištiko* 
+*šiandien ištiko* 
 
-*Nesusipratimas*
+*nesusipratimas*
 
-*Lyg pirmą kartą*
+*lyg pirmą kartą*
 
-*Kas kutentų* 
+*kas kutentų* 
 
-*Ir nežinotumei* 
+*ir nežinotumei* 
 
-*Kad reikia juoktis* 
+*kad reikia juoktis* 
 
-*Mirė draugas* 
+*mirė draugas* 
 
-*Palinkiu geros kelionės*
+*palinkiu geros kelionės*
 
-*Ir palydžiu tave* 
+*ir palydžiu tave* 
 
-*Iki sankryžos* 
+*iki sankryžos* 
 
-*Iki riešuto* 
+*iki riešuto* 
 
-*Iki stotelės*
+*iki lango*
 
-*Iki bėgių* 
+*iki bėgių* 
 
 *Iki*
