@@ -4,20 +4,20 @@ date: 2020-11-19T20:22:50.286Z
 thumb_img_path: /images/img_5011.jpg
 template: post
 ---
-*Aptakiai sukasi* 
+*aptakiai sukasi* 
 
-*Stiklinėje vanduo* 
+*stiklinėje vanduo* 
 
-*Pilasi per kraštus* 
+*pilasi per kraštus* 
 
-*Džiaugsmas*
+*džiaugsmas*
 
-*Užlieja visą pasauly*
+*užlieja visą pasauly*
 
-*O sode* 
+*o sode* 
 
-*Sunokę abrikosai*
+*sunokę abrikosai*
 
-*Vakarinėj saulėj*  
+*vakarinėj saulėj*  
 
-*Gimė vaikas*
+*gimė vaikas*
