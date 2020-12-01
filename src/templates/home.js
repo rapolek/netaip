@@ -43,9 +43,7 @@ const Home = (props) => {
     setLoves(initialState);
 
     async function fetchData() {
-      const response = await fetch(
-        "https://netaip.netlify.app/.netlify/functions/get-loves"
-      );
+      const response = await fetch("/.netlify/functions/get-loves");
       const data = await response.json();
 
       const newLoves = initialState.map((page) => {
@@ -74,7 +72,7 @@ const Home = (props) => {
     });
 
     localStorage.setItem(id, "liked");
-    fetch(`https://netaip.netlify.app/.netlify/functions/add-love?id=${id}`);
+    fetch(`/.netlify/functions/add-love?id=${id}`);
 
     setLoves(newLoves);
   }
@@ -89,7 +87,7 @@ const Home = (props) => {
     });
 
     localStorage.removeItem(id);
-    fetch(`https://netaip.netlify.app/.netlify/functions/remove-love?id=${id}`);
+    fetch(`/.netlify/functions/remove-love?id=${id}`);
 
     setLoves(newLoves);
   }
